@@ -1,8 +1,10 @@
 import Vue from 'vue';
 import VueRouter from "vue-router";
 import store from './store'
+import common from './assets/js/axios'
 
 Vue.use(VueRouter);
+Vue.use(common);
 
 //引入根模板
 import home from './components/home'
